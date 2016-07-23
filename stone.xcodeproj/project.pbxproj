@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		791B43771CD4DA930087CA37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791B43761CD4DA930087CA37 /* AppDelegate.swift */; };
+		791B43791CD4DA930087CA37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791B43781CD4DA930087CA37 /* ViewController.swift */; };
+		791B437B1CD4DA930087CA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791B437A1CD4DA930087CA37 /* Assets.xcassets */; };
+		791B437E1CD4DA930087CA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791B437C1CD4DA930087CA37 /* Main.storyboard */; };
+		791B43891CD4DA930087CA37 /* stoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791B43881CD4DA930087CA37 /* stoneTests.swift */; };
+		791B43941CD4DA930087CA37 /* stoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791B43931CD4DA930087CA37 /* stoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		791B43851CD4DA930087CA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791B436B1CD4DA930087CA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791B43721CD4DA930087CA37;
+			remoteInfo = stone;
+		};
+		791B43901CD4DA930087CA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791B436B1CD4DA930087CA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791B43721CD4DA930087CA37;
+			remoteInfo = stone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		791B43731CD4DA930087CA37 /* stone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		791B43761CD4DA930087CA37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		791B43781CD4DA930087CA37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		791B437A1CD4DA930087CA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		791B437D1CD4DA930087CA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		791B437F1CD4DA930087CA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791B43841CD4DA930087CA37 /* stoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		791B43881CD4DA930087CA37 /* stoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoneTests.swift; sourceTree = "<group>"; };
+		791B438A1CD4DA930087CA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791B438F1CD4DA930087CA37 /* stoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		791B43931CD4DA930087CA37 /* stoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoneUITests.swift; sourceTree = "<group>"; };
+		791B43951CD4DA930087CA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		791B43701CD4DA930087CA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791B43811CD4DA930087CA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791B438C1CD4DA930087CA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791B436A1CD4DA930087CA37 = {
+			isa = PBXGroup;
+			children = (
+				791B43751CD4DA930087CA37 /* stone */,
+				791B43871CD4DA930087CA37 /* stoneTests */,
+				791B43921CD4DA930087CA37 /* stoneUITests */,
+				791B43741CD4DA930087CA37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		791B43741CD4DA930087CA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				791B43731CD4DA930087CA37 /* stone.app */,
+				791B43841CD4DA930087CA37 /* stoneTests.xctest */,
+				791B438F1CD4DA930087CA37 /* stoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		791B43751CD4DA930087CA37 /* stone */ = {
+			isa = PBXGroup;
+			children = (
+				791B43761CD4DA930087CA37 /* AppDelegate.swift */,
+				791B43781CD4DA930087CA37 /* ViewController.swift */,
+				791B437A1CD4DA930087CA37 /* Assets.xcassets */,
+				791B437C1CD4DA930087CA37 /* Main.storyboard */,
+				791B437F1CD4DA930087CA37 /* Info.plist */,
+			);
+			path = stone;
+			sourceTree = "<group>";
+		};
+		791B43871CD4DA930087CA37 /* stoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				791B43881CD4DA930087CA37 /* stoneTests.swift */,
+				791B438A1CD4DA930087CA37 /* Info.plist */,
+			);
+			path = stoneTests;
+			sourceTree = "<group>";
+		};
+		791B43921CD4DA930087CA37 /* stoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				791B43931CD4DA930087CA37 /* stoneUITests.swift */,
+				791B43951CD4DA930087CA37 /* Info.plist */,
+			);
+			path = stoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		791B43721CD4DA930087CA37 /* stone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791B43981CD4DA940087CA37 /* Build configuration list for PBXNativeTarget "stone" */;
+			buildPhases = (
+				791B436F1CD4DA930087CA37 /* Sources */,
+				791B43701CD4DA930087CA37 /* Frameworks */,
+				791B43711CD4DA930087CA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stone;
+			productName = stone;
+			productReference = 791B43731CD4DA930087CA37 /* stone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		791B43831CD4DA930087CA37 /* stoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791B439B1CD4DA940087CA37 /* Build configuration list for PBXNativeTarget "stoneTests" */;
+			buildPhases = (
+				791B43801CD4DA930087CA37 /* Sources */,
+				791B43811CD4DA930087CA37 /* Frameworks */,
+				791B43821CD4DA930087CA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791B43861CD4DA930087CA37 /* PBXTargetDependency */,
+			);
+			name = stoneTests;
+			productName = stoneTests;
+			productReference = 791B43841CD4DA930087CA37 /* stoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		791B438E1CD4DA930087CA37 /* stoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791B439E1CD4DA940087CA37 /* Build configuration list for PBXNativeTarget "stoneUITests" */;
+			buildPhases = (
+				791B438B1CD4DA930087CA37 /* Sources */,
+				791B438C1CD4DA930087CA37 /* Frameworks */,
+				791B438D1CD4DA930087CA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791B43911CD4DA930087CA37 /* PBXTargetDependency */,
+			);
+			name = stoneUITests;
+			productName = stoneUITests;
+			productReference = 791B438F1CD4DA930087CA37 /* stoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		791B436B1CD4DA930087CA37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xty19;
+				TargetAttributes = {
+					791B43721CD4DA930087CA37 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					791B43831CD4DA930087CA37 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 791B43721CD4DA930087CA37;
+					};
+					791B438E1CD4DA930087CA37 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 791B43721CD4DA930087CA37;
+					};
+				};
+			};
+			buildConfigurationList = 791B436E1CD4DA930087CA37 /* Build configuration list for PBXProject "stone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 791B436A1CD4DA930087CA37;
+			productRefGroup = 791B43741CD4DA930087CA37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791B43721CD4DA930087CA37 /* stone */,
+				791B43831CD4DA930087CA37 /* stoneTests */,
+				791B438E1CD4DA930087CA37 /* stoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		791B43711CD4DA930087CA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791B437B1CD4DA930087CA37 /* Assets.xcassets in Resources */,
+				791B437E1CD4DA930087CA37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791B43821CD4DA930087CA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791B438D1CD4DA930087CA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		791B436F1CD4DA930087CA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791B43791CD4DA930087CA37 /* ViewController.swift in Sources */,
+				791B43771CD4DA930087CA37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791B43801CD4DA930087CA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791B43891CD4DA930087CA37 /* stoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791B438B1CD4DA930087CA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791B43941CD4DA930087CA37 /* stoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		791B43861CD4DA930087CA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791B43721CD4DA930087CA37 /* stone */;
+			targetProxy = 791B43851CD4DA930087CA37 /* PBXContainerItemProxy */;
+		};
+		791B43911CD4DA930087CA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791B43721CD4DA930087CA37 /* stone */;
+			targetProxy = 791B43901CD4DA930087CA37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		791B437C1CD4DA930087CA37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791B437D1CD4DA930087CA37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		791B43961CD4DA940087CA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		791B43971CD4DA940087CA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		791B43991CD4DA940087CA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = stone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		791B439A1CD4DA940087CA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = stone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		791B439C1CD4DA940087CA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = stoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stone.app/Contents/MacOS/stone";
+			};
+			name = Debug;
+		};
+		791B439D1CD4DA940087CA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = stoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stone.app/Contents/MacOS/stone";
+			};
+			name = Release;
+		};
+		791B439F1CD4DA940087CA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = stoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = stone;
+			};
+			name = Debug;
+		};
+		791B43A01CD4DA940087CA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = stoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = stone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		791B436E1CD4DA930087CA37 /* Build configuration list for PBXProject "stone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791B43961CD4DA940087CA37 /* Debug */,
+				791B43971CD4DA940087CA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791B43981CD4DA940087CA37 /* Build configuration list for PBXNativeTarget "stone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791B43991CD4DA940087CA37 /* Debug */,
+				791B439A1CD4DA940087CA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		791B439B1CD4DA940087CA37 /* Build configuration list for PBXNativeTarget "stoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791B439C1CD4DA940087CA37 /* Debug */,
+				791B439D1CD4DA940087CA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		791B439E1CD4DA940087CA37 /* Build configuration list for PBXNativeTarget "stoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791B439F1CD4DA940087CA37 /* Debug */,
+				791B43A01CD4DA940087CA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 791B436B1CD4DA930087CA37 /* Project object */;
+}
